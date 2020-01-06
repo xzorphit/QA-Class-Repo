@@ -1,6 +1,8 @@
-# Page-Object Model for Webdriver.io Homepage, GettingStartedPage and NodeJSHomepage
-somewhere to keep track of changes made to code in QA Class even though iv already missed alot
+# Expanding the methods used in the test
+
+Broke out the Describe Its so that the test output reflects the steps taken in the test.
+also changing the name of test.js to NodeJSLinkTest.js so that isn't so generic. 
 
 //npm run test
 
-Vagrant Snapshot push_1578014674_3569
+Vagrant Snapshot push_1578335230_7438
