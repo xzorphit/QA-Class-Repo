@@ -1,8 +1,9 @@
-# Expanding the methods used in the test
+# Exploring some of the more common WebDriverIO functions
 
-Broke out the Describe Its so that the test output reflects the steps taken in the test.
-also changing the name of test.js to NodeJSLinkTest.js so that it isn't so generic. 
+Getting more interactive with the web elements. clearElement(), setValue(), keys().
+Grabbing tags by its attributes. in the example grabbing an <input> by its <id> with '#findElement'
+i didnt use selectByVisibleText() this time around
 
 //npm run test
 
-Vagrant Snapshot push_1578335230_7438
+Vagrant Snapshot push_1579288573_2937
