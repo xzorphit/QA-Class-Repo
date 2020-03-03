@@ -14,7 +14,8 @@ describe('Given: as a user on the WebDriver.IO page', function() {
     before('Setup', () => {
         
         browser.url('/');   
-        base.expectTitle.should.equal(base.getTitle()); 
+        base.getTitle(base.baseExpectTitle);
+        //base.expectTitle.should.equal(base.getTitle()); 
         /* function() {} and ()=>{} are the same thing but thelater is just doing it without stating that it is a function 
         
         we are moving browser.url and the title validation to the "before" so that it is done before getting to the functions, lets us know if the page hasent loaded immediately
