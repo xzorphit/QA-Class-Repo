@@ -1,9 +1,14 @@
-# Exploring some of the more common WebDriverIO functions
+# Smoke testing Arrays and Exploring some of the more WebDriverIO functions. Also, first git push on this project.
 
-Getting more interactive with the web elements. clearElement(), setValue(), keys().
-Grabbing tags by its attributes. in the example grabbing an <input> by its <id> with '#findElement'
-i didnt use selectByVisibleText() this time around
+should.exist, should.equal(), it.only(''),
+
+Creating an array function that validates based on length
+.$$(this.mulitpleElements).length;
 
 //npm run test
 
-Vagrant Snapshot push_1579288573_2937
+//cp -r test /home/vagrant/Documents/webPrac/QA-Repo--Current/WEBPRAC
+//git checkout -b SmokeTesting-Arrays-and-More-WDIO-Functions
+//git push --set-upstream origin SmokeTesting-Arrays-and-More-WDIO-Functions 
+
+Vagrant Snapshot push_1583247320_4003
